@@ -1,0 +1,14 @@
+# Python / Flask / TensorFlow ignores
+venv/
+__pycache__/
+*.h5
+*.pkl
+*.pyc
+*.log
+instance/
+.env
+.DS_Store
+
+# Dataset folders
+dataset/
+saved_models/
