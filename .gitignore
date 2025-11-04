@@ -1,14 +1,53 @@
-# Python / Flask / TensorFlow ignores
+# ========== PYTHON & BACKEND ==========
+# Virtual environments
 venv/
+backend/venv/
+
+# Python cache and temp files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+logs/
+*.tmp
+*.bak
+
+# ========== FRONTEND ==========
+node_modules/
+dist/
+build/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ========== DATA & MODEL FILES ==========
+# Datasets
+backend/datasets/
+datasets/
+data/
+
+# Model weights
 *.h5
 *.pkl
-*.pyc
-*.log
-instance/
-.env
-.DS_Store
+*.pt
+*.pth
+*.onnx
 
-# Dataset folders
-dataset/
-saved_models/
+# Uploaded images (if any)
+uploads/
+backend/uploads/
+
+# ========== SYSTEM / EDITOR FILES ==========
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.old
+
+# ========== ENVIRONMENT / CONFIG FILES ==========
+.env
+*.env
