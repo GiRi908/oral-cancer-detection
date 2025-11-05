@@ -93,13 +93,13 @@ Optimizer: Adam
 Accuracy Achieved: ~95% (after 10 epochs on balanced dataset)
 
 ### Sample Output
-Image	Prediction
+Image Prediction Results
 
-	Normal
-	<img width="1238" height="911" alt="Screenshot 2025-11-05 094119" src="https://github.com/user-attachments/assets/6b7227bb-cd17-4a35-a917-d500b50b9134" />
+### Normal	
+<img width="500" height="400" alt="Screenshot 2025-11-05 094119" src="https://github.com/user-attachments/assets/6b7227bb-cd17-4a35-a917-d500b50b9134" />
 
-	Cancer
-	<img width="1203" height="902" alt="Screenshot 2025-11-05 094139" src="https://github.com/user-attachments/assets/91fe5099-f5e3-4888-ae96-91cf763bb998" />
+### Abnormal
+<img width="500" height="400" alt="Screenshot 2025-11-05 094139" src="https://github.com/user-attachments/assets/91fe5099-f5e3-4888-ae96-91cf763bb998" />
 
 ### Future Improvements
 
